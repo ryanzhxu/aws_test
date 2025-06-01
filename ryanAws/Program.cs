@@ -20,7 +20,8 @@ namespace Main
                 // Send message to SQS
                 var sendMessageResponse = await new AmazonSQSClient(RegionEndpoint.USWest2).SendMessageAsync(new SendMessageRequest
                 {
-                    QueueUrl = "https://sqs.us-west-2.amazonaws.com/248189899700/ryanAWS",
+                    //QueueUrl = "https://sqs.us-west-2.amazonaws.com/248189899700/ryanAWS",
+                    QueueUrl = "https://sqs.us-west-2.amazonaws.com/150605664074/rx_sqs_1",
                     MessageBody = message
                 });
                 Console.WriteLine("Message ID: " + sendMessageResponse.MessageId);

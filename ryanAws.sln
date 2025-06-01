@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1706.12
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "ryanAws\Main.csproj", "{0ABDEC3E-5A6C-4560-811F-D49CD6AEBA05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Main", "ryanAws\Main.csproj", "{0ABDEC3E-5A6C-4560-811F-D49CD6AEBA05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseMigration", "DatabaseMigration\DatabaseMigration.csproj", "{CB1698CA-23A4-4453-BF58-0C5FC1E504DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0ABDEC3E-5A6C-4560-811F-D49CD6AEBA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0ABDEC3E-5A6C-4560-811F-D49CD6AEBA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0ABDEC3E-5A6C-4560-811F-D49CD6AEBA05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB1698CA-23A4-4453-BF58-0C5FC1E504DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB1698CA-23A4-4453-BF58-0C5FC1E504DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB1698CA-23A4-4453-BF58-0C5FC1E504DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB1698CA-23A4-4453-BF58-0C5FC1E504DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
